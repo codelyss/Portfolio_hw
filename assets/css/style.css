@@ -8,7 +8,7 @@ body {
     font-size: 18px;
 }
 
-.aboutme {
+.main-container {
     padding: 30px;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -26,7 +26,7 @@ body {
     color: #ffffff;
 }
 
-#header-container {
+#name-tag {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
     text-align: center;
@@ -41,6 +41,7 @@ body {
 
 .backgroundimage {
     background-image: url('../images/pink_rice.png');
+    height:100%;
 }
 
 nav a {
@@ -59,3 +60,53 @@ h2 {
     font-size: 30px;
     font-weight: bold;
 }
+
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    font-size: 20px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    height: 20px;
+    padding: 25px;
+}
+
+/* Contact CSS */
+
+ul {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+#name, #email, #message {
+    display: block;
+    width: 100%; 
+}
+
+#message {
+    height: 300px;
+}
+
+/* Portfolio CSS */
+
+.images {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* .images { */
+    width: 100%;
+    border: 0 none;
+    opacity: .8;
+}
+
