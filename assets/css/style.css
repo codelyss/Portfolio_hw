@@ -73,6 +73,9 @@ h3 {
     width: 95%;
     height: 20px;
     padding: 25px;
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
 }
 
 /* Contact CSS */
@@ -102,11 +105,5 @@ li {
     margin-top: 10px;
     float: left;
     margin-right: 25px;
-}
-
-/* .images { */
-    width: 100%;
-    border: 0 none;
-    opacity: .8;
 }
 
